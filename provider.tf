@@ -8,17 +8,18 @@ terraform {
 }
 
 provider "google" {
-  project     = "avian-amulet-378416"
+  project     = "the-learning-project-378201"
   region      = "us-central1"
 }
 
 
 terraform {
   cloud {
-    organization = "sami123123123"
+    organization = "salik1995"
 
     workspaces {
-      name = "mobility-base-storage"
+      name = "
+terraform_cloud_storage_bucket_creation"
     }
   }
 }
