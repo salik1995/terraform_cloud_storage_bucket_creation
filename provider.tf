@@ -18,8 +18,7 @@ terraform {
     organization = "salik1995"
 
     workspaces {
-      name = "
-terraform_cloud_storage_bucket_creation"
+      name = "terraform_cloud_storage_bucket_creation"
     }
   }
 }
